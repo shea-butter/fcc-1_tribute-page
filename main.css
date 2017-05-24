@@ -1,0 +1,123 @@
+/* colors */
+/*$mavsBlue: #007dc5;
+$mavsNavyBlue: #20385b;
+$mavsSilver: #c4ced3;
+$mavsBlack: #061922;
+$retroBlue: #002c65;
+$retroGreen: #009142;
+$darkGray: #555555;
+$lightGray: #efefef;
+$trans: rgba(00, 00, 00, .00004);*/
+
+/* html */
+html {
+	font-size: 62.5%; /* 62.5% of (std) 16px = 10px = 1em = 1rem */
+}
+
+/* body */
+body {
+	box-sizing: border-box;
+	font-size: 1.25rem;
+	color: #555555;
+	text-shadow: -1px -1px 0 #efefef, 1px -1px 0 #efefef, -1px 1px 0 #efefef, 1px 1px 0 #efefef;
+	background-color: #efefef;
+	margin: auto;
+}
+
+/* headers */
+h2.main {
+	margin: 1.0rem 1rem 0 1rem;
+	font-family: Orbitron, serif;
+	font-size: 3.0rem;
+	line-height: 3.5rem;
+	padding: .125rem 5rem 0 0;
+	color: #20385b;
+	box-shadow: inset -0.5rem -0.5rem 2.5rem 0 rgba(53, 86, 129, 0.4);
+	background: rgba(0, 0, 0, 4.0e-05);
+	background-image: url(http://dallasposttrib.com/wordpress/wp-content/uploads/2015/01/Dallas-Mavericks-Logo.gif);
+	background-size: 5rem;
+	background-repeat: no-repeat;
+	background-position: 98% 50%;
+	border-color: #c4ced3;
+	border-width: 0.25rem;
+	border-radius: .75rem 5rem 0.75rem 5rem;
+	border-style: solid;
+}
+
+h3.main {
+	font-size: 2.5rem;
+	font-family: Orbitron, serif;
+	position: center;
+	color: #007dc5;
+}
+
+h3 > span {
+	color: #009142;
+	text-decoration: underline;
+}
+
+h4.main {
+	font-size: 1.75rem;
+	font-family: Orbitron, serif;
+	color: #002c65;
+}
+
+/* divs by ID */
+#art > img {
+	width: 100%;
+	height: auto;
+}
+
+/* paragraphs */
+p {
+	line-height: 1.375rem;
+	font-style: italic;
+	font-size: 1.625rem;
+}
+
+/* forms */
+form.main {
+	line-height: 2rem;
+	font-size: 1.5rem;
+}
+
+/* lists */
+ul.main {
+	font-size: 1.5rem;
+}
+
+i.list1 {
+	color: #009142;
+}
+
+i.list2 {
+	color: gold;
+}
+
+i.no-outline {
+	text-shadow: none;
+}
+
+/* links */
+a:link {
+	font-weight: normal;
+	text-decoration: none;
+	color: #007dc5;
+}
+
+a:visited {
+	font-weight: normal;
+	text-decoration: none;
+	color: #009142;
+}
+
+a:active {
+	font-weight: bold;
+	text-decoration: none;
+	color: #20385b;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: none;
+}

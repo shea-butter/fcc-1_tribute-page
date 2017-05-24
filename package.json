@@ -1,0 +1,23 @@
+{
+  "name": "fcc-1_tribute-page",
+  "version": "1.0.0",
+  "description": "A Tribute to Dirk Nowitzki",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d /",
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shea-butter/fcc-1_tribute-page.git"
+  },
+  "author": "Shea Fitzek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shea-butter/fcc-1_tribute-page/issues"
+  },
+  "homepage": "https:///shea-butter.github.io/fcc-1_tribute-page",
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
+  }
+}
