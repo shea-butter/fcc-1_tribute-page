@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shea-butter/fcc-1_tribute-page.git"
+    "url": "git+https://github.com/sheafitzek/fcc-1_tribute-page.git"
   },
   "author": "Shea Fitzek",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shea-butter/fcc-1_tribute-page/issues"
+    "url": "https://github.com/sheafitzek/fcc-1_tribute-page/issues"
   },
-  "homepage": "https:///shea-butter.github.io/fcc-1_tribute-page",
+  "homepage": "https:///sheafitzek.github.io/fcc-1_tribute-page",
   "devDependencies": {
     "gh-pages": "^1.0.0"
   }
